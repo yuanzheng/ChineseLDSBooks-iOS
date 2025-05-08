@@ -63,6 +63,9 @@
 		AF7CD6182DCC5202003D9F37 /* ChineseLDSBooks-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				AF7CD62F2DCC5EE4003D9F37 /* Controller */,
+				AF7CD62E2DCC5EDA003D9F37 /* View */,
+				AF7CD62D2DCC5ECC003D9F37 /* Model */,
 				AF7CD6192DCC5202003D9F37 /* AppDelegate.swift */,
 				AF7CD61B2DCC5202003D9F37 /* SceneDelegate.swift */,
 				AF7CD61D2DCC5202003D9F37 /* ViewController.swift */,
@@ -74,13 +77,33 @@
 			path = "ChineseLDSBooks-iOS";
 			sourceTree = "<group>";
 		};
+		AF7CD62D2DCC5ECC003D9F37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF7CD62E2DCC5EDA003D9F37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF7CD62F2DCC5EE4003D9F37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		C52C0A6125CF20E282AB24FD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				2E7032629DCB55BE32ECFBE4 /* Pods-ChineseLDSBooks-iOS.debug.xcconfig */,
 				3D5521A4A2D902AB1EC40BA8 /* Pods-ChineseLDSBooks-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
